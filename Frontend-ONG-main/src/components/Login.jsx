@@ -102,7 +102,7 @@ export default function Login({ onSwitch, onLoginSuccess }) {
             <input
               type="email"
               className="custom-input"
-              placeholder="admin@taf.mg"
+              placeholder="adresse email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -120,7 +120,7 @@ export default function Login({ onSwitch, onLoginSuccess }) {
             <input
               type="password"
               className="custom-input"
-              placeholder="••••••••"
+              placeholder="mot de passe"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
