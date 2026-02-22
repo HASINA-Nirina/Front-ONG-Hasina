@@ -1,0 +1,12 @@
+{
+  "name": "frontend-wrapper",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "cd Frontend-ONG-main && npm install",
+    "install:inner": "cd Frontend-ONG-main && npm install",
+    "dev": "cd Frontend-ONG-main && npm run dev",
+    "build": "cd Frontend-ONG-main && npm run build",
+    "start": "npm run dev"
+  }
+}
